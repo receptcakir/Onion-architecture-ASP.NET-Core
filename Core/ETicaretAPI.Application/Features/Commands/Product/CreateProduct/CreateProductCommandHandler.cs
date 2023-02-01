@@ -1,5 +1,5 @@
-﻿using GOAL.Application.Abstractions.Hubs;
-using GOAL.Application.Repositories;
+﻿using ETicaretAPI.Application.Abstractions.Hubs;
+using ETicaretAPI.Application.Repositories;
 using MediatR;
 using System;
 using System.Collections.Generic;
@@ -7,7 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace GOAL.Application.Features.Commands.Product.CreateProduct
+namespace ETicaretAPI.Application.Features.Commands.Product.CreateProduct
 {
     public class CreateProductCommandHandler : IRequestHandler<CreateProductCommandRequest, CreateProductCommandResponse>
     {

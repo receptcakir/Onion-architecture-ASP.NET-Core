@@ -1,4 +1,4 @@
-﻿using GOAL.Application.Abstractions.Storage;
+﻿using ETicaretAPI.Application.Abstractions.Storage;
 using Microsoft.AspNetCore.Http;
 using System;
 using System.Collections.Generic;
@@ -6,7 +6,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace GOAL.Infrastructure.Services.Storage
+namespace ETicaretAPI.Infrastructure.Services.Storage
 {
     public class StorageService : IStorageService
     {

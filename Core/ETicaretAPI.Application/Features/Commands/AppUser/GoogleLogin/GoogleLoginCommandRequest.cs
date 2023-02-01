@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace GOAL.Application.Features.Commands.AppUser.GoogleLogin
+namespace ETicaretAPI.Application.Features.Commands.AppUser.GoogleLogin
 {
     public class GoogleLoginCommandRequest : IRequest<GoogleLoginCommandResponse>
     {

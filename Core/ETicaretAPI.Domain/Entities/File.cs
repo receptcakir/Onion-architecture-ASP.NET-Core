@@ -1,7 +1,7 @@
-﻿using GOAL.Domain.Entities.Common;
+﻿using ETicaretAPI.Domain.Entities.Common;
 using System.ComponentModel.DataAnnotations.Schema;
 
-namespace GOAL.Domain.Entities
+namespace ETicaretAPI.Domain.Entities
 {
     public class File : BaseEntity
     {

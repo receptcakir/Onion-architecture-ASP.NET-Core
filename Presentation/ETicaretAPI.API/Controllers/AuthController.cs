@@ -1,14 +1,14 @@
-﻿using GOAL.Application.Features.Commands.AppUser.FacebookLogin;
-using GOAL.Application.Features.Commands.AppUser.GoogleLogin;
-using GOAL.Application.Features.Commands.AppUser.LoginUser;
-using GOAL.Application.Features.Commands.AppUser.PasswordReset;
-using GOAL.Application.Features.Commands.AppUser.RefreshTokenLogin;
-using GOAL.Application.Features.Commands.AppUser.VerifyResetToken;
+﻿using ETicaretAPI.Application.Features.Commands.AppUser.FacebookLogin;
+using ETicaretAPI.Application.Features.Commands.AppUser.GoogleLogin;
+using ETicaretAPI.Application.Features.Commands.AppUser.LoginUser;
+using ETicaretAPI.Application.Features.Commands.AppUser.PasswordReset;
+using ETicaretAPI.Application.Features.Commands.AppUser.RefreshTokenLogin;
+using ETicaretAPI.Application.Features.Commands.AppUser.VerifyResetToken;
 using MediatR;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
-namespace GOAL.API.Controllers
+namespace ETicaretAPI.API.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]

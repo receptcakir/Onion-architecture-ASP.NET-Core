@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace GOAL.Application.Abstractions.Storage
+namespace ETicaretAPI.Application.Abstractions.Storage
 {
     public interface IStorageService : IStorage
     {

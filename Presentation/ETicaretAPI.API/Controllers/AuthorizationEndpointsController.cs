@@ -1,14 +1,15 @@
-﻿using GOAL.Application.Features.Commands.AuthorizationEndpoint.AssignRoleEndpoint;
-using GOAL.Application.Features.Queries.AuthorizationEndpoint.GetRolesToEndpoints;
+﻿using ETicaretAPI.Application.Features.Commands.AuthorizationEndpoint.AssignRoleEndpoint;
+using ETicaretAPI.Application.Features.Queries.AuthorizationEndpoint.GetRolesToEndpoints;
+using GOAL.API.Controllers;
 using MediatR;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
-namespace GOAL.API.Controllers
+namespace ETicaretAPI.API.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    public class AuthorizationEndpointsController : ControllerBase
+    public class AuthorizationEndpointsController : CustomControllerBase
     {
         readonly IMediator _mediator;
 
@@ -20,16 +21,16 @@ namespace GOAL.API.Controllers
         [HttpPost("[action]")]
         public async Task<IActionResult> GetRolesToEndpoint(GetRolesToEndpointQueryRequest rolesToEndpointQueryRequest)
         {
-            GetRolesToEndpointQueryResponse response = await _mediator.Send(rolesToEndpointQueryRequest);
-            return Ok(response);
+            var response = await _mediator.Send(rolesToEndpointQueryRequest);
+            return CreateActionResult(response);
         }
 
         [HttpPost("[action]")]
         public async Task<IActionResult> AssignRoleEndpoint(AssignRoleEndpointCommandRequest assignRoleEndpointCommandRequest)
         {
             assignRoleEndpointCommandRequest.Type = typeof(Program);
-            AssignRoleEndpointCommandResponse response = await _mediator.Send(assignRoleEndpointCommandRequest);
-            return Ok(response);
+            var response = await _mediator.Send(assignRoleEndpointCommandRequest);
+            return CreateActionResult(response);
         }
     }
 }

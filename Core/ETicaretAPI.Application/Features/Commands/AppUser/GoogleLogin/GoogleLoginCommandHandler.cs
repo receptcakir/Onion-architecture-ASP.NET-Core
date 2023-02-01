@@ -1,7 +1,7 @@
-﻿using GOAL.Application.Abstractions.Services;
+﻿using ETicaretAPI.Application.Abstractions.Services;
 using MediatR;
 
-namespace GOAL.Application.Features.Commands.AppUser.GoogleLogin
+namespace ETicaretAPI.Application.Features.Commands.AppUser.GoogleLogin
 {
     public class GoogleLoginCommandHandler : IRequestHandler<GoogleLoginCommandRequest, GoogleLoginCommandResponse>
     {

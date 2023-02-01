@@ -1,8 +1,8 @@
-﻿using GOAL.Application.Abstractions.Services;
-using GOAL.Application.Repositories;
-using GOAL.Application.ViewModels.Baskets;
-using GOAL.Domain.Entities;
-using GOAL.Domain.Entities.Identity;
+﻿using ETicaretAPI.Application.Abstractions.Services;
+using ETicaretAPI.Application.Repositories;
+using ETicaretAPI.Application.ViewModels.Baskets;
+using ETicaretAPI.Domain.Entities;
+using ETicaretAPI.Domain.Entities.Identity;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
@@ -12,7 +12,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace GOAL.Persistence.Services
+namespace ETicaretAPI.Persistence.Services
 {
     public class BasketService : IBasketService
     {

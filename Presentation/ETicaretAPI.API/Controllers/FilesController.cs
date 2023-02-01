@@ -1,7 +1,7 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
-namespace GOAL.API.Controllers
+namespace ETicaretAPI.API.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]

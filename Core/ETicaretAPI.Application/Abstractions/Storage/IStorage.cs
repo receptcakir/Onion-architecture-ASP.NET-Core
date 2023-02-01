@@ -1,6 +1,6 @@
 ﻿using Microsoft.AspNetCore.Http;
 
-namespace GOAL.Application.Abstractions.Storage
+namespace ETicaretAPI.Application.Abstractions.Storage
 {
     public interface IStorage
     {

@@ -1,4 +1,4 @@
-﻿using GOAL.Application.Repositories;
+﻿using ETicaretAPI.Application.Repositories;
 using MediatR;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
@@ -8,7 +8,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace GOAL.Application.Features.Queries.ProductImageFile.GetProductImages
+namespace ETicaretAPI.Application.Features.Queries.ProductImageFile.GetProductImages
 {
     public class GetProductImagesQueryHandler : IRequestHandler<GetProductImagesQueryRequest, List<GetProductImagesQueryResponse>>
     {

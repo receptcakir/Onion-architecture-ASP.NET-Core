@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace GOAL.Application.DTOs
+namespace ETicaretAPI.Application.DTOs
 {
     public class Token
     {

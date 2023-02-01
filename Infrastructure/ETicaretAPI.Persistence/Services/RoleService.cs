@@ -1,5 +1,5 @@
-﻿using GOAL.Application.Abstractions.Services;
-using GOAL.Domain.Entities.Identity;
+﻿using ETicaretAPI.Application.Abstractions.Services;
+using ETicaretAPI.Domain.Entities.Identity;
 using Microsoft.AspNetCore.Identity;
 using System;
 using System.Collections.Generic;
@@ -7,7 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace GOAL.Persistence.Services
+namespace ETicaretAPI.Persistence.Services
 {
     public class RoleService : IRoleService
     {

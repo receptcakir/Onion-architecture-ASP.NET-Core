@@ -1,6 +1,6 @@
 ﻿using MediatR;
 
-namespace GOAL.Application.Features.Commands.Role.DeleteRole
+namespace ETicaretAPI.Application.Features.Commands.Role.DeleteRole
 {
     public class DeleteRoleCommandRequest : IRequest<DeleteRoleCommandResponse>
     {

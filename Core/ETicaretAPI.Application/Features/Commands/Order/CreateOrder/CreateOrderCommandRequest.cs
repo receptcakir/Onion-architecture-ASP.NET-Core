@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace GOAL.Application.Features.Commands.Order.CreateOrder
+namespace ETicaretAPI.Application.Features.Commands.Order.CreateOrder
 {
     public class CreateOrderCommandRequest : IRequest<CreateOrderCommandResponse>
     {

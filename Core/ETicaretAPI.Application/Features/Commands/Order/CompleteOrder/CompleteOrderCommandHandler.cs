@@ -1,5 +1,5 @@
-﻿using GOAL.Application.Abstractions.Services;
-using GOAL.Application.DTOs.Order;
+﻿using ETicaretAPI.Application.Abstractions.Services;
+using ETicaretAPI.Application.DTOs.Order;
 using MediatR;
 using System;
 using System.Collections.Generic;
@@ -7,7 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace GOAL.Application.Features.Commands.Order.CompleteOrder
+namespace ETicaretAPI.Application.Features.Commands.Order.CompleteOrder
 {
     public class CompleteOrderCommandHandler : IRequestHandler<CompleteOrderCommandRequest, CompleteOrderCommandResponse>
     {

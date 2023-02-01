@@ -1,10 +1,10 @@
-﻿using GOAL.Application.Abstractions.Services;
-using GOAL.Application.DTOs.User;
-using GOAL.Application.Exceptions;
+﻿using ETicaretAPI.Application.Abstractions.Services;
+using ETicaretAPI.Application.DTOs.User;
+using ETicaretAPI.Application.Exceptions;
 using MediatR;
 using Microsoft.AspNetCore.Identity;
 
-namespace GOAL.Application.Features.Commands.AppUser.CreateUser
+namespace ETicaretAPI.Application.Features.Commands.AppUser.CreateUser
 {
     public class CreateUserCommandHandler : IRequestHandler<CreateUserCommandRequest, CreateUserCommandResponse>
     {

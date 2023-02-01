@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace GOAL.Infrastructure.Operations
+namespace ETicaretAPI.Infrastructure.Operations
 {
     public static class NameOperation
     {

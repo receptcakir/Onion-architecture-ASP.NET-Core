@@ -1,4 +1,4 @@
-﻿namespace GOAL.Application.Features.Queries.Order.GetAllOrders
+﻿namespace ETicaretAPI.Application.Features.Queries.Order.GetAllOrders
 {
     public class GetAllOrdersQueryResponse
     {

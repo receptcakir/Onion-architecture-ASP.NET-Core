@@ -1,4 +1,4 @@
-﻿namespace GOAL.Application.Features.Queries.AppUser.GetAllUsers
+﻿namespace ETicaretAPI.Application.Features.Queries.AppUser.GetAllUsers
 {
     public class GetAllUsersQueryResponse
     {

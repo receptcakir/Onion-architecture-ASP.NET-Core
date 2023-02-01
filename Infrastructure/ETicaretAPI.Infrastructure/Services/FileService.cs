@@ -1,6 +1,6 @@
-﻿using GOAL.Infrastructure.Operations;
+﻿using ETicaretAPI.Infrastructure.Operations;
 
-namespace GOAL.Infrastructure.Services
+namespace ETicaretAPI.Infrastructure.Services
 {
     public class FileService 
     {

@@ -1,6 +1,6 @@
-﻿using GOAL.Domain.Entities.Identity;
+﻿using ETicaretAPI.Domain.Entities.Identity;
 
-namespace GOAL.Application.Abstractions.Token
+namespace ETicaretAPI.Application.Abstractions.Token
 {
     public interface ITokenHandler
     {

@@ -1,6 +1,6 @@
-﻿using F = GOAL.Domain.Entities;
+﻿using F = ETicaretAPI.Domain.Entities;
 
-namespace GOAL.Application.Repositories
+namespace ETicaretAPI.Application.Repositories
 {
     public interface IFileWriteRepository : IWriteRepository<F::File>
     {

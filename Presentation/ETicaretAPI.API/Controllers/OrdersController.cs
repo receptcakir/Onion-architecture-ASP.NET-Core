@@ -1,16 +1,16 @@
-﻿using GOAL.Application.Consts;
-using GOAL.Application.CustomAttributes;
-using GOAL.Application.Enums;
-using GOAL.Application.Features.Commands.Order.CompleteOrder;
-using GOAL.Application.Features.Commands.Order.CreateOrder;
-using GOAL.Application.Features.Queries.Order.GetAllOrders;
-using GOAL.Application.Features.Queries.Order.GetOrderById;
+﻿using ETicaretAPI.Application.Consts;
+using ETicaretAPI.Application.CustomAttributes;
+using ETicaretAPI.Application.Enums;
+using ETicaretAPI.Application.Features.Commands.Order.CompleteOrder;
+using ETicaretAPI.Application.Features.Commands.Order.CreateOrder;
+using ETicaretAPI.Application.Features.Queries.Order.GetAllOrders;
+using ETicaretAPI.Application.Features.Queries.Order.GetOrderById;
 using MediatR;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
-namespace GOAL.API.Controllers
+namespace ETicaretAPI.API.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]

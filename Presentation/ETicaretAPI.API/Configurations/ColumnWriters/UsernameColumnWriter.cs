@@ -2,7 +2,7 @@
 using Serilog.Events;
 using Serilog.Sinks.PostgreSQL;
 
-namespace GOAL.API.Configurations.ColumnWriters
+namespace ETicaretAPI.API.Configurations.ColumnWriters
 {
     public class UsernameColumnWriter : ColumnWriterBase
     {

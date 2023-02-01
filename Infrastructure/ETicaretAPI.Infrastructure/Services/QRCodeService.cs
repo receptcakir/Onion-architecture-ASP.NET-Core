@@ -1,7 +1,7 @@
-﻿using GOAL.Application.Abstractions.Services;
+﻿using ETicaretAPI.Application.Abstractions.Services;
 using QRCoder;
 
-namespace GOAL.Infrastructure.Services
+namespace ETicaretAPI.Infrastructure.Services
 {
     public class QRCodeService : IQRCodeService
     {

@@ -1,4 +1,4 @@
-﻿namespace GOAL.Application.Features.Queries.Role.GetRoles
+﻿namespace ETicaretAPI.Application.Features.Queries.Role.GetRoles
 {
     public class GetRolesQueryResponse
     {

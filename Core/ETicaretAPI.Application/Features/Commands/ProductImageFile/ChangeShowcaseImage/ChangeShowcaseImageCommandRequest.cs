@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace GOAL.Application.Features.Commands.ProductImageFile.ChangeShowcaseImage
+namespace ETicaretAPI.Application.Features.Commands.ProductImageFile.ChangeShowcaseImage
 {
     public class ChangeShowcaseImageCommandRequest : IRequest<ChangeShowcaseImageCommandResponse>
     {

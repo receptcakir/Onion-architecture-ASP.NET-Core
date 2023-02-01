@@ -1,4 +1,4 @@
-﻿using GOAL.Application.Repositories;
+﻿using ETicaretAPI.Application.Repositories;
 using MediatR;
 using System;
 using System.Collections.Generic;
@@ -6,7 +6,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace GOAL.Application.Features.Commands.Product.RemoveProduct
+namespace ETicaretAPI.Application.Features.Commands.Product.RemoveProduct
 {
     public class RemoveProductCommandHandler : IRequestHandler<RemoveProductCommandRequest, RemoveProductCommandResponse>
     {

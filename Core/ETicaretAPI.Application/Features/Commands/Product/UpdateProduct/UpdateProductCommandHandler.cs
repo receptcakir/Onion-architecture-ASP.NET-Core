@@ -1,4 +1,4 @@
-﻿using GOAL.Application.Repositories;
+﻿using ETicaretAPI.Application.Repositories;
 using MediatR;
 using Microsoft.Extensions.Logging;
 using System;
@@ -7,7 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace GOAL.Application.Features.Commands.Product.UpdateProduct
+namespace ETicaretAPI.Application.Features.Commands.Product.UpdateProduct
 {
     public class UpdateProductCommandHandler : IRequestHandler<UpdateProductCommandRequest, UpdateProductCommandResponse>
     {

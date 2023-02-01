@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace GOAL.Domain.Entities.Common
+namespace ETicaretAPI.Domain.Entities.Common
 {
     public class BaseEntity
     {

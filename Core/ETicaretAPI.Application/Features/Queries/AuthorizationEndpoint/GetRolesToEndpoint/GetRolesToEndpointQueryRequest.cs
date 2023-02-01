@@ -1,6 +1,6 @@
 ﻿using MediatR;
 
-namespace GOAL.Application.Features.Queries.AuthorizationEndpoint.GetRolesToEndpoints
+namespace ETicaretAPI.Application.Features.Queries.AuthorizationEndpoint.GetRolesToEndpoints
 {
     public class GetRolesToEndpointQueryRequest : IRequest<GetRolesToEndpointQueryResponse>
     {

@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace GOAL.Application.Consts
+namespace ETicaretAPI.Application.Consts
 {
     static public class AuthorizeDefinitionConstants
     {

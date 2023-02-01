@@ -1,4 +1,4 @@
-﻿namespace GOAL.Application.Features.Commands.Basket.RemoveBasketItem
+﻿namespace ETicaretAPI.Application.Features.Commands.Basket.RemoveBasketItem
 {
     public class RemoveBasketItemCommandResponse
     {

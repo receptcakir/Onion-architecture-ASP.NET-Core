@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace GOAL.Application.ViewModels.Products
+namespace ETicaretAPI.Application.ViewModels.Products
 {
     public class VM_Create_Product
     {

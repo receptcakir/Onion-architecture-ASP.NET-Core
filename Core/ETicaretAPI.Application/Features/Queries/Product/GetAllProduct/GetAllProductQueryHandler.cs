@@ -1,4 +1,5 @@
-﻿using GOAL.Application.Repositories;
+﻿using ETicaretAPI.Application.Repositories;
+using GOAL.Application.DTOs;
 using MediatR;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Logging;
@@ -8,9 +9,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace GOAL.Application.Features.Queries.Product.GetAllProduct
+namespace ETicaretAPI.Application.Features.Queries.Product.GetAllProduct
 {
-    public class GetAllProductQueryHandler : IRequestHandler<GetAllProductQueryRequest, GetAllProductQueryResponse>
+    public class GetAllProductQueryHandler : IRequestHandler<GetAllProductQueryRequest, CustomResponse<GetAllProductQueryResponse>>
     {
         readonly IProductReadRepository _productReadRepository;
         readonly ILogger<GetAllProductQueryHandler> _logger;
@@ -19,7 +20,7 @@ namespace GOAL.Application.Features.Queries.Product.GetAllProduct
             _productReadRepository = productReadRepository;
             _logger = logger;
         }
-        public async Task<GetAllProductQueryResponse> Handle(GetAllProductQueryRequest request, CancellationToken cancellationToken)
+        public async Task<CustomResponse<GetAllProductQueryResponse>> Handle(GetAllProductQueryRequest request, CancellationToken cancellationToken)
         {
             _logger.LogInformation("Get all products");
 
@@ -38,11 +39,12 @@ namespace GOAL.Application.Features.Queries.Product.GetAllProduct
                     p.ProductImageFiles
                 }).ToList();
 
-            return new()
+            var response = new GetAllProductQueryResponse () 
             {
                 Products = products,
                 TotalProductCount = totalProductCount
             };
+            return CustomResponse<GetAllProductQueryResponse>.Success(response,201);
         }
     }
 }

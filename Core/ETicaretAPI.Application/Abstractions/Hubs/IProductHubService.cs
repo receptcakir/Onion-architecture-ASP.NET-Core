@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace GOAL.Application.Abstractions.Hubs
+namespace ETicaretAPI.Application.Abstractions.Hubs
 {
     public interface IProductHubService
     {

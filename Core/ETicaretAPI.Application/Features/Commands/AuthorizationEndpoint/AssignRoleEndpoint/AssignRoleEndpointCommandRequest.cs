@@ -1,6 +1,6 @@
 ﻿using MediatR;
 
-namespace GOAL.Application.Features.Commands.AuthorizationEndpoint.AssignRoleEndpoint
+namespace ETicaretAPI.Application.Features.Commands.AuthorizationEndpoint.AssignRoleEndpoint
 {
     public class AssignRoleEndpointCommandRequest : IRequest<AssignRoleEndpointCommandResponse>
     {

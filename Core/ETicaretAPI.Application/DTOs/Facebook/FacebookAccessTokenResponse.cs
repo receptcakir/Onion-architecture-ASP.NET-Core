@@ -5,7 +5,7 @@ using System.Text;
 using System.Text.Json.Serialization;
 using System.Threading.Tasks;
 
-namespace GOAL.Application.DTOs.Facebook
+namespace ETicaretAPI.Application.DTOs.Facebook
 {
     public class FacebookAccessTokenResponse
     {

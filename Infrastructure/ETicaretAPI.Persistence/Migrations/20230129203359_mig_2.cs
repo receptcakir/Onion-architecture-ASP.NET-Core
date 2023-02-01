@@ -2,7 +2,7 @@
 
 #nullable disable
 
-namespace GOAL.Persistence.Migrations
+namespace ETicaretAPI.Persistence.Migrations
 {
     /// <inheritdoc />
     public partial class mig2 : Migration

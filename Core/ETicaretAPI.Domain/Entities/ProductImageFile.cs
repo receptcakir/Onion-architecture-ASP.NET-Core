@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace GOAL.Domain.Entities
+namespace ETicaretAPI.Domain.Entities
 {
     public class ProductImageFile : File
     {

@@ -1,17 +1,17 @@
-﻿using GOAL.Application.Abstractions.Services;
-using GOAL.Application.Abstractions.Services.Configurations;
-using GOAL.Application.Abstractions.Storage;
-using GOAL.Application.Abstractions.Token;
-using GOAL.Infrastructure.Enums;
-using GOAL.Infrastructure.Services;
-using GOAL.Infrastructure.Services.Configurations;
-using GOAL.Infrastructure.Services.Storage;
-using GOAL.Infrastructure.Services.Storage.Azure;
-using GOAL.Infrastructure.Services.Storage.Local;
-using GOAL.Infrastructure.Services.Token;
+﻿using ETicaretAPI.Application.Abstractions.Services;
+using ETicaretAPI.Application.Abstractions.Services.Configurations;
+using ETicaretAPI.Application.Abstractions.Storage;
+using ETicaretAPI.Application.Abstractions.Token;
+using ETicaretAPI.Infrastructure.Enums;
+using ETicaretAPI.Infrastructure.Services;
+using ETicaretAPI.Infrastructure.Services.Configurations;
+using ETicaretAPI.Infrastructure.Services.Storage;
+using ETicaretAPI.Infrastructure.Services.Storage.Azure;
+using ETicaretAPI.Infrastructure.Services.Storage.Local;
+using ETicaretAPI.Infrastructure.Services.Token;
 using Microsoft.Extensions.DependencyInjection;
 
-namespace GOAL.Infrastructure
+namespace ETicaretAPI.Infrastructure
 {
     public static class ServiceRegistration
     {

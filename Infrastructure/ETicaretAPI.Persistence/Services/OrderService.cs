@@ -1,10 +1,10 @@
-﻿using GOAL.Application.Abstractions.Services;
-using GOAL.Application.DTOs.Order;
-using GOAL.Application.Repositories;
-using GOAL.Domain.Entities;
+﻿using ETicaretAPI.Application.Abstractions.Services;
+using ETicaretAPI.Application.DTOs.Order;
+using ETicaretAPI.Application.Repositories;
+using ETicaretAPI.Domain.Entities;
 using Microsoft.EntityFrameworkCore;
 
-namespace GOAL.Persistence.Services
+namespace ETicaretAPI.Persistence.Services
 {
     public class OrderService : IOrderService
     {

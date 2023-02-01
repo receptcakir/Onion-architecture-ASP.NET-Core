@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace GOAL.Application.DTOs.Order
+namespace ETicaretAPI.Application.DTOs.Order
 {
     public class SingleOrder
     {

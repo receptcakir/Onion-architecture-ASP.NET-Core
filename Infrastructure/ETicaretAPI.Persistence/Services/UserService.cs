@@ -1,10 +1,10 @@
-﻿using GOAL.Application.Abstractions.Services;
-using GOAL.Application.DTOs.User;
-using GOAL.Application.Exceptions;
-using GOAL.Application.Helpers;
-using GOAL.Application.Repositories;
-using GOAL.Domain.Entities;
-using GOAL.Domain.Entities.Identity;
+﻿using ETicaretAPI.Application.Abstractions.Services;
+using ETicaretAPI.Application.DTOs.User;
+using ETicaretAPI.Application.Exceptions;
+using ETicaretAPI.Application.Helpers;
+using ETicaretAPI.Application.Repositories;
+using ETicaretAPI.Domain.Entities;
+using ETicaretAPI.Domain.Entities.Identity;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.WebUtilities;
 using Microsoft.EntityFrameworkCore;
@@ -14,7 +14,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace GOAL.Persistence.Services
+namespace ETicaretAPI.Persistence.Services
 {
     public class UserService : IUserService
     {

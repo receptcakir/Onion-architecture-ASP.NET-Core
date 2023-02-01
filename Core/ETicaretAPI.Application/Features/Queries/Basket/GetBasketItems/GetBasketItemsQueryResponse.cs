@@ -1,4 +1,4 @@
-﻿namespace GOAL.Application.Features.Queries.Basket.GetBasketItems
+﻿namespace ETicaretAPI.Application.Features.Queries.Basket.GetBasketItems
 {
     public class GetBasketItemsQueryResponse
     {

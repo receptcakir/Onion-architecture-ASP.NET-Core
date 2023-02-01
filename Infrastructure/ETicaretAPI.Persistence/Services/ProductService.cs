@@ -1,6 +1,6 @@
-﻿using GOAL.Application.Abstractions.Services;
-using GOAL.Application.Repositories;
-using GOAL.Domain.Entities;
+﻿using ETicaretAPI.Application.Abstractions.Services;
+using ETicaretAPI.Application.Repositories;
+using ETicaretAPI.Domain.Entities;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -8,7 +8,7 @@ using System.Text;
 using System.Text.Json;
 using System.Threading.Tasks;
 
-namespace GOAL.Persistence.Services
+namespace ETicaretAPI.Persistence.Services
 {
     public class ProductService : IProductService
     {

@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace GOAL.Application.Features.Queries.ProductImageFile.GetProductImages
+namespace ETicaretAPI.Application.Features.Queries.ProductImageFile.GetProductImages
 {
     public class GetProductImagesQueryRequest : IRequest<List<GetProductImagesQueryResponse>>
     {

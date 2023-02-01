@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace GOAL.Application.Abstractions.Services.Authentications
+namespace ETicaretAPI.Application.Abstractions.Services.Authentications
 {
     public interface IInternalAuthentication
     {

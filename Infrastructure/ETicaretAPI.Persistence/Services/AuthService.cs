@@ -1,10 +1,10 @@
-﻿using GOAL.Application.Abstractions.Services;
-using GOAL.Application.Abstractions.Token;
-using GOAL.Application.DTOs;
-using GOAL.Application.DTOs.Facebook;
-using GOAL.Application.Exceptions;
-using GOAL.Application.Helpers;
-using GOAL.Domain.Entities.Identity;
+﻿using ETicaretAPI.Application.Abstractions.Services;
+using ETicaretAPI.Application.Abstractions.Token;
+using ETicaretAPI.Application.DTOs;
+using ETicaretAPI.Application.DTOs.Facebook;
+using ETicaretAPI.Application.Exceptions;
+using ETicaretAPI.Application.Helpers;
+using ETicaretAPI.Domain.Entities.Identity;
 using Google.Apis.Auth;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.WebUtilities;
@@ -17,7 +17,7 @@ using System.Text;
 using System.Text.Json;
 using System.Threading.Tasks;
 
-namespace GOAL.Persistence.Services
+namespace ETicaretAPI.Persistence.Services
 {
     public class AuthService : IAuthService
     {

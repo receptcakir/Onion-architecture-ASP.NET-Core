@@ -3,7 +3,7 @@ using System.Net;
 using System.Net.Mime;
 using System.Text.Json;
 
-namespace GOAL.API.Extensions
+namespace ETicaretAPI.API.Extensions
 {
     static public class ConfigureExceptionHandlerExtension
     {

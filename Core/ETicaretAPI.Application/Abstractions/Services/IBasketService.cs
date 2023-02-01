@@ -1,12 +1,12 @@
-﻿using GOAL.Application.ViewModels.Baskets;
-using GOAL.Domain.Entities;
+﻿using ETicaretAPI.Application.ViewModels.Baskets;
+using ETicaretAPI.Domain.Entities;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace GOAL.Application.Abstractions.Services
+namespace ETicaretAPI.Application.Abstractions.Services
 {
     public interface IBasketService
     {

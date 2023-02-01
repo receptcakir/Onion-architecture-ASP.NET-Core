@@ -1,6 +1,6 @@
 ﻿using MediatR;
 
-namespace GOAL.Application.Features.Commands.Role.CreateRole
+namespace ETicaretAPI.Application.Features.Commands.Role.CreateRole
 {
     public class CreateRoleCommandRequest : IRequest<CreateRoleCommandResponse>
     {

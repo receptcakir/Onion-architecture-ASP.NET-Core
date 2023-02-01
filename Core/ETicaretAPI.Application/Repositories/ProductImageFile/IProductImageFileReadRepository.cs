@@ -1,6 +1,6 @@
-﻿using GOAL.Domain.Entities;
+﻿using ETicaretAPI.Domain.Entities;
 
-namespace GOAL.Application.Repositories
+namespace ETicaretAPI.Application.Repositories
 {
     public interface IProductImageFileReadRepository : IReadRepository<ProductImageFile>
     {

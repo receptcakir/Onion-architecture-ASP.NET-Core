@@ -1,5 +1,5 @@
-﻿using GOAL.Application.Abstractions.Token;
-using GOAL.Domain.Entities.Identity;
+﻿using ETicaretAPI.Application.Abstractions.Token;
+using ETicaretAPI.Domain.Entities.Identity;
 using Microsoft.Extensions.Configuration;
 using Microsoft.IdentityModel.Tokens;
 using System;
@@ -11,7 +11,7 @@ using System.Security.Cryptography;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace GOAL.Infrastructure.Services.Token
+namespace ETicaretAPI.Infrastructure.Services.Token
 {
     public class TokenHandler : ITokenHandler
     {

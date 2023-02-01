@@ -1,16 +1,16 @@
-﻿using GOAL.Application.CustomAttributes;
-using GOAL.Application.Enums;
-using GOAL.Application.Features.Commands.Role.CreateRole;
-using GOAL.Application.Features.Commands.Role.DeleteRole;
-using GOAL.Application.Features.Commands.Role.UpdateRole;
-using GOAL.Application.Features.Queries.Role.GetRoleById;
-using GOAL.Application.Features.Queries.Role.GetRoles;
+﻿using ETicaretAPI.Application.CustomAttributes;
+using ETicaretAPI.Application.Enums;
+using ETicaretAPI.Application.Features.Commands.Role.CreateRole;
+using ETicaretAPI.Application.Features.Commands.Role.DeleteRole;
+using ETicaretAPI.Application.Features.Commands.Role.UpdateRole;
+using ETicaretAPI.Application.Features.Queries.Role.GetRoleById;
+using ETicaretAPI.Application.Features.Queries.Role.GetRoles;
 using MediatR;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
-namespace GOAL.API.Controllers
+namespace ETicaretAPI.API.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]

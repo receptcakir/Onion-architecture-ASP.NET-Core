@@ -1,4 +1,4 @@
-﻿using GOAL.Application.Abstractions.Services;
+﻿using ETicaretAPI.Application.Abstractions.Services;
 using Microsoft.Extensions.Configuration;
 using System;
 using System.Collections.Generic;
@@ -8,7 +8,7 @@ using System.Net.Mail;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace GOAL.Infrastructure.Services
+namespace ETicaretAPI.Infrastructure.Services
 {
     public class MailService : IMailService
     {

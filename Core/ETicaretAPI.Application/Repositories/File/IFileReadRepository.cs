@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace GOAL.Application.Repositories
+namespace ETicaretAPI.Application.Repositories
 {
-    public interface IFileReadRepository : IReadRepository<GOAL.Domain.Entities.File>
+    public interface IFileReadRepository : IReadRepository<ETicaretAPI.Domain.Entities.File>
     {
     }
 }

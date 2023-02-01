@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace GOAL.Application.Helpers
+namespace ETicaretAPI.Application.Helpers
 {
     static public class CustomEncoders
     {

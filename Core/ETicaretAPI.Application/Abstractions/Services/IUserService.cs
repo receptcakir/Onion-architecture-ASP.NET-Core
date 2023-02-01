@@ -1,7 +1,7 @@
-﻿using GOAL.Application.DTOs.User;
-using GOAL.Domain.Entities.Identity;
+﻿using ETicaretAPI.Application.DTOs.User;
+using ETicaretAPI.Domain.Entities.Identity;
 
-namespace GOAL.Application.Abstractions.Services
+namespace ETicaretAPI.Application.Abstractions.Services
 {
     public interface IUserService
     {

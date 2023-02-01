@@ -1,4 +1,4 @@
-﻿namespace GOAL.Application.Features.Queries.Order.GetOrderById
+﻿namespace ETicaretAPI.Application.Features.Queries.Order.GetOrderById
 {
     public class GetOrderByIdQueryResponse
     {

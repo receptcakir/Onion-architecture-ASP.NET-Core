@@ -1,4 +1,4 @@
-﻿using GOAL.Application.Abstractions.Services;
+﻿using ETicaretAPI.Application.Abstractions.Services;
 using MediatR;
 using System;
 using System.Collections.Generic;
@@ -6,7 +6,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace GOAL.Application.Features.Commands.AppUser.AssignRoleToUser
+namespace ETicaretAPI.Application.Features.Commands.AppUser.AssignRoleToUser
 {
     public class AssignRoleToUserCommandHandler : IRequestHandler<AssignRoleToUserCommandRequest, AssignRoleToUserCommandResponse>
     {

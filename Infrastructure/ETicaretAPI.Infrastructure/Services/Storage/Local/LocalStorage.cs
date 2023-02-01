@@ -1,8 +1,8 @@
-﻿using GOAL.Application.Abstractions.Storage.Local;
+﻿using ETicaretAPI.Application.Abstractions.Storage.Local;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
 
-namespace GOAL.Infrastructure.Services.Storage.Local
+namespace ETicaretAPI.Infrastructure.Services.Storage.Local
 {
     public class LocalStorage : Storage, ILocalStorage
     {

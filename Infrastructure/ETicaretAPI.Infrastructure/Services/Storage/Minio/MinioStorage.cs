@@ -1,5 +1,5 @@
-﻿using GOAL.Application.Abstractions.Storage;
-using GOAL.Application.Abstractions.Storage.Minio;
+﻿using ETicaretAPI.Application.Abstractions.Storage;
+using ETicaretAPI.Application.Abstractions.Storage.Minio;
 using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.Configuration;
 using Minio;
@@ -11,7 +11,7 @@ using System.Reactive.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace GOAL.Infrastructure.Services.Storage.Minio
+namespace ETicaretAPI.Infrastructure.Services.Storage.Minio
 {
     public class MinioStorage : Storage, IMinioStorage
     {

@@ -1,6 +1,6 @@
 ﻿using MediatR;
 
-namespace GOAL.Application.Features.Queries.Role.GetRoleById
+namespace ETicaretAPI.Application.Features.Queries.Role.GetRoleById
 {
     public class GetRoleByIdQueryRequest : IRequest<GetRoleByIdQueryResponse>
     {

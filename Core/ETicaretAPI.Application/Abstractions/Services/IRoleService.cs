@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace GOAL.Application.Abstractions.Services
+namespace ETicaretAPI.Application.Abstractions.Services
 {
     public interface IRoleService
     {

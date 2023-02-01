@@ -6,7 +6,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace GOAL.Application.Features.Commands.ProductImageFile.RemoveProductImage
+namespace ETicaretAPI.Application.Features.Commands.ProductImageFile.RemoveProductImage
 {
     public class RemoveProductImageCommandRequest : IRequest<RemoveProductImageCommandResponse>
     {

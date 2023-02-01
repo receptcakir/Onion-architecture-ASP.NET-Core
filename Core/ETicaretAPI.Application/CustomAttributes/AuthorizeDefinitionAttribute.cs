@@ -1,11 +1,11 @@
-﻿using GOAL.Application.Enums;
+﻿using ETicaretAPI.Application.Enums;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace GOAL.Application.CustomAttributes
+namespace ETicaretAPI.Application.CustomAttributes
 {
     public class AuthorizeDefinitionAttribute : Attribute
     {

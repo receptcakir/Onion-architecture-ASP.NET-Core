@@ -1,6 +1,6 @@
-﻿using GOAL.Domain.Entities;
-using GOAL.Domain.Entities.Common;
-using GOAL.Domain.Entities.Identity;
+﻿using ETicaretAPI.Domain.Entities;
+using ETicaretAPI.Domain.Entities.Common;
+using ETicaretAPI.Domain.Entities.Identity;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 using System;
@@ -9,7 +9,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace GOAL.Persistence.Contexts
+namespace ETicaretAPI.Persistence.Contexts
 {
     public class ETicaretAPIDbContext : IdentityDbContext<AppUser, AppRole, string>
     {

@@ -1,5 +1,5 @@
-﻿using GOAL.Application.Abstractions.Hubs;
-using GOAL.Application.Abstractions.Services;
+﻿using ETicaretAPI.Application.Abstractions.Hubs;
+using ETicaretAPI.Application.Abstractions.Services;
 using MediatR;
 using System;
 using System.Collections.Generic;
@@ -7,7 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace GOAL.Application.Features.Commands.Order.CreateOrder
+namespace ETicaretAPI.Application.Features.Commands.Order.CreateOrder
 {
     public class CreateOrderCommandHandler : IRequestHandler<CreateOrderCommandRequest, CreateOrderCommandResponse>
     {

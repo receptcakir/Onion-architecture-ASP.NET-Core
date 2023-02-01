@@ -1,11 +1,11 @@
-﻿using GOAL.Infrastructure.Operations;
+﻿using ETicaretAPI.Infrastructure.Operations;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace GOAL.Infrastructure.Services.Storage
+namespace ETicaretAPI.Infrastructure.Services.Storage
 {
     public class Storage
     {

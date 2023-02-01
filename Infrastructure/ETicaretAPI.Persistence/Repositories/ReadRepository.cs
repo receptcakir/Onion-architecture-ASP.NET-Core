@@ -1,6 +1,6 @@
-﻿using GOAL.Application.Repositories;
-using GOAL.Domain.Entities.Common;
-using GOAL.Persistence.Contexts;
+﻿using ETicaretAPI.Application.Repositories;
+using ETicaretAPI.Domain.Entities.Common;
+using ETicaretAPI.Persistence.Contexts;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
@@ -9,7 +9,7 @@ using System.Linq.Expressions;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace GOAL.Persistence.Repositories
+namespace ETicaretAPI.Persistence.Repositories
 {
     public class ReadRepository<T> : IReadRepository<T> where T : BaseEntity
     {

@@ -1,7 +1,7 @@
-﻿using GOAL.Application.Abstractions.Services;
-using GOAL.Application.Abstractions.Token;
-using GOAL.Application.DTOs;
-using GOAL.Application.DTOs.Facebook;
+﻿using ETicaretAPI.Application.Abstractions.Services;
+using ETicaretAPI.Application.Abstractions.Token;
+using ETicaretAPI.Application.DTOs;
+using ETicaretAPI.Application.DTOs.Facebook;
 using MediatR;
 using Microsoft.AspNetCore.Identity;
 using System;
@@ -11,7 +11,7 @@ using System.Text;
 using System.Text.Json;
 using System.Threading.Tasks;
 
-namespace GOAL.Application.Features.Commands.AppUser.FacebookLogin
+namespace ETicaretAPI.Application.Features.Commands.AppUser.FacebookLogin
 {
     public class FacebookLoginCommandHandler : IRequestHandler<FacebookLoginCommandRequest, FacebookLoginCommandResponse>
     {

@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace GOAL.Application.Enums
+namespace ETicaretAPI.Application.Enums
 {
     public enum ActionType
     {

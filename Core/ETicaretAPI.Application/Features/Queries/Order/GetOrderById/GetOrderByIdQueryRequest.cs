@@ -1,6 +1,6 @@
 ﻿using MediatR;
 
-namespace GOAL.Application.Features.Queries.Order.GetOrderById
+namespace ETicaretAPI.Application.Features.Queries.Order.GetOrderById
 {
     public class GetOrderByIdQueryRequest : IRequest<GetOrderByIdQueryResponse>
     {

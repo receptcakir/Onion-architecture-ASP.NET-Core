@@ -1,20 +1,20 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using GOAL.Persistence.Contexts;
+using ETicaretAPI.Persistence.Contexts;
 using Microsoft.Extensions.DependencyInjection;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using GOAL.Application.Repositories;
-using GOAL.Persistence.Repositories;
-using GOAL.Domain.Entities.Identity;
-using GOAL.Persistence.Services;
-using GOAL.Application.Abstractions.Services;
-using GOAL.Application.Abstractions.Services.Authentications;
+using ETicaretAPI.Application.Repositories;
+using ETicaretAPI.Persistence.Repositories;
+using ETicaretAPI.Domain.Entities.Identity;
+using ETicaretAPI.Persistence.Services;
+using ETicaretAPI.Application.Abstractions.Services;
+using ETicaretAPI.Application.Abstractions.Services.Authentications;
 using Microsoft.AspNetCore.Identity;
 
-namespace GOAL.Persistence
+namespace ETicaretAPI.Persistence
 {
     public static class ServiceRegistration
     {

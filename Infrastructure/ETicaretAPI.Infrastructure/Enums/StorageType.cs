@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace GOAL.Infrastructure.Enums
+namespace ETicaretAPI.Infrastructure.Enums
 {
     public enum StorageType
     {

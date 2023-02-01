@@ -1,20 +1,20 @@
-﻿using GOAL.Application.Abstractions.Services;
-using GOAL.Application.CustomAttributes;
-using GOAL.Application.Enums;
-using GOAL.Application.Features.Commands.AppUser.AssignRoleToUser;
-using GOAL.Application.Features.Commands.AppUser.CreateUser;
-using GOAL.Application.Features.Commands.AppUser.FacebookLogin;
-using GOAL.Application.Features.Commands.AppUser.GoogleLogin;
-using GOAL.Application.Features.Commands.AppUser.LoginUser;
-using GOAL.Application.Features.Commands.AppUser.UpdatePassword;
-using GOAL.Application.Features.Queries.AppUser.GetAllUsers;
-using GOAL.Application.Features.Queries.AppUser.GetRolesToUser;
+﻿using ETicaretAPI.Application.Abstractions.Services;
+using ETicaretAPI.Application.CustomAttributes;
+using ETicaretAPI.Application.Enums;
+using ETicaretAPI.Application.Features.Commands.AppUser.AssignRoleToUser;
+using ETicaretAPI.Application.Features.Commands.AppUser.CreateUser;
+using ETicaretAPI.Application.Features.Commands.AppUser.FacebookLogin;
+using ETicaretAPI.Application.Features.Commands.AppUser.GoogleLogin;
+using ETicaretAPI.Application.Features.Commands.AppUser.LoginUser;
+using ETicaretAPI.Application.Features.Commands.AppUser.UpdatePassword;
+using ETicaretAPI.Application.Features.Queries.AppUser.GetAllUsers;
+using ETicaretAPI.Application.Features.Queries.AppUser.GetRolesToUser;
 using MediatR;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
-namespace GOAL.API.Controllers
+namespace ETicaretAPI.API.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]

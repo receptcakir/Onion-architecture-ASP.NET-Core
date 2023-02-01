@@ -1,12 +1,12 @@
-﻿using GOAL.Application.Abstractions.Services;
-using GOAL.Application.CustomAttributes;
+﻿using ETicaretAPI.Application.Abstractions.Services;
+using ETicaretAPI.Application.CustomAttributes;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Controllers;
 using Microsoft.AspNetCore.Mvc.Filters;
 using Microsoft.AspNetCore.Mvc.Routing;
 using System.Reflection;
 
-namespace GOAL.API.Filters
+namespace ETicaretAPI.API.Filters
 {
     public class RolePermissionFilter : IAsyncActionFilter
     {

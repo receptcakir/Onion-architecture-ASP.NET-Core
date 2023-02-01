@@ -1,4 +1,4 @@
-﻿using GOAL.Application.Repositories;
+﻿using ETicaretAPI.Application.Repositories;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
@@ -6,7 +6,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace GOAL.Application.Features.Commands.ProductImageFile.ChangeShowcaseImage
+namespace ETicaretAPI.Application.Features.Commands.ProductImageFile.ChangeShowcaseImage
 {
     public class ChangeShowcaseImageCommandHandler : MediatR.IRequestHandler<ChangeShowcaseImageCommandRequest, ChangeShowcaseImageCommandResponse>
     {

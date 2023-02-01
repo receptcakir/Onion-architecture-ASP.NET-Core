@@ -1,8 +1,8 @@
-﻿using GOAL.Application.Abstractions.Services;
-using GOAL.Application.Abstractions.Services.Configurations;
-using GOAL.Application.Repositories;
-using GOAL.Domain.Entities;
-using GOAL.Domain.Entities.Identity;
+﻿using ETicaretAPI.Application.Abstractions.Services;
+using ETicaretAPI.Application.Abstractions.Services.Configurations;
+using ETicaretAPI.Application.Repositories;
+using ETicaretAPI.Domain.Entities;
+using ETicaretAPI.Domain.Entities.Identity;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using System;
@@ -11,7 +11,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace GOAL.Persistence.Services
+namespace ETicaretAPI.Persistence.Services
 {
     public class AuthorizationEndpointService : IAuthorizationEndpointService
     {

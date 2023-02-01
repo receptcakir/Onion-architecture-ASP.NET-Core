@@ -1,5 +1,5 @@
-﻿using GOAL.Application.Abstractions.Services;
-using GOAL.Application.Exceptions;
+﻿using ETicaretAPI.Application.Abstractions.Services;
+using ETicaretAPI.Application.Exceptions;
 using MediatR;
 using System;
 using System.Collections.Generic;
@@ -7,7 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace GOAL.Application.Features.Commands.AppUser.UpdatePassword
+namespace ETicaretAPI.Application.Features.Commands.AppUser.UpdatePassword
 {
     public class UpdatePasswordCommandHandler : IRequestHandler<UpdatePasswordCommandRequest, UpdatePasswordCommandResponse>
     {

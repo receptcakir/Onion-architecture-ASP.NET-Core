@@ -1,7 +1,7 @@
-﻿using GOAL.Application.Abstractions.Services.Configurations;
-using GOAL.Application.CustomAttributes;
-using GOAL.Application.DTOs.Configuration;
-using GOAL.Application.Enums;
+﻿using ETicaretAPI.Application.Abstractions.Services.Configurations;
+using ETicaretAPI.Application.CustomAttributes;
+using ETicaretAPI.Application.DTOs.Configuration;
+using ETicaretAPI.Application.Enums;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Routing;
@@ -12,7 +12,7 @@ using System.Reflection;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace GOAL.Infrastructure.Services.Configurations
+namespace ETicaretAPI.Infrastructure.Services.Configurations
 {
     public class ApplicationService : IApplicationService
     {

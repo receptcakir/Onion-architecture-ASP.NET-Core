@@ -1,6 +1,6 @@
 ﻿using MediatR;
 
-namespace GOAL.Application.Features.Commands.AppUser.UpdatePassword
+namespace ETicaretAPI.Application.Features.Commands.AppUser.UpdatePassword
 {
     public class UpdatePasswordCommandRequest : IRequest<UpdatePasswordCommandResponse>
     {

@@ -1,6 +1,6 @@
 ﻿using Azure.Storage.Blobs;
 using Azure.Storage.Blobs.Models;
-using GOAL.Application.Abstractions.Storage.Azure;
+using ETicaretAPI.Application.Abstractions.Storage.Azure;
 using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.Configuration;
 using System;
@@ -9,7 +9,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace GOAL.Infrastructure.Services.Storage.Azure
+namespace ETicaretAPI.Infrastructure.Services.Storage.Azure
 {
     public class AzureStorage : Storage, IAzureStorage
     {

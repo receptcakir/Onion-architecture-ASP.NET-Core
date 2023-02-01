@@ -1,7 +1,7 @@
-﻿using GOAL.Application.ViewModels.Products;
+﻿using ETicaretAPI.Application.ViewModels.Products;
 using FluentValidation;
 
-namespace GOAL.Application.Validators.Products
+namespace ETicaretAPI.Application.Validators.Products
 {
     public class CreateProductValidator : AbstractValidator<VM_Create_Product>
     {

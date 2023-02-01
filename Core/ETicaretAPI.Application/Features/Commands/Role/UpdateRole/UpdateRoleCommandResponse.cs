@@ -1,4 +1,4 @@
-﻿namespace GOAL.Application.Features.Commands.Role.UpdateRole
+﻿namespace ETicaretAPI.Application.Features.Commands.Role.UpdateRole
 {
     public class UpdateRoleCommandResponse
     {

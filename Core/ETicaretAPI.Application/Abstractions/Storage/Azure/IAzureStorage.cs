@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace GOAL.Application.Abstractions.Storage.Azure
+namespace ETicaretAPI.Application.Abstractions.Storage.Azure
 {
     public interface IAzureStorage : IStorage
     {

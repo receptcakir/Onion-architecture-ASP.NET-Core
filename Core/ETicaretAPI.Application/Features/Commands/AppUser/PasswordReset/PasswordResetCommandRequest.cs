@@ -1,6 +1,6 @@
 ﻿using MediatR;
 
-namespace GOAL.Application.Features.Commands.AppUser.PasswordReset
+namespace ETicaretAPI.Application.Features.Commands.AppUser.PasswordReset
 {
     public class PasswordResetCommandRequest : IRequest<PasswordResetCommandResponse>
     {

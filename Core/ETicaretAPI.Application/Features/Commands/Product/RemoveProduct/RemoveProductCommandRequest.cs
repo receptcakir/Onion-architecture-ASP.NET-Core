@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace GOAL.Application.Features.Commands.Product.RemoveProduct
+namespace ETicaretAPI.Application.Features.Commands.Product.RemoveProduct
 {
     public class RemoveProductCommandRequest : IRequest<RemoveProductCommandResponse>
     {

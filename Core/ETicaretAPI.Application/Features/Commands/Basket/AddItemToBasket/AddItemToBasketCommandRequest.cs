@@ -1,6 +1,6 @@
 ﻿using MediatR;
 
-namespace GOAL.Application.Features.Commands.Basket.AddItemToBasket
+namespace ETicaretAPI.Application.Features.Commands.Basket.AddItemToBasket
 {
     public class AddItemToBasketCommandRequest : IRequest<AddItemToBasketCommandResponse>
     {

@@ -1,6 +1,6 @@
 ﻿using MediatR;
 
-namespace GOAL.Application.Features.Commands.Product.UpdateStockQrCodeToProduct
+namespace ETicaretAPI.Application.Features.Commands.Product.UpdateStockQrCodeToProduct
 {
     public class UpdateStockQrCodeToProductCommandRequest : IRequest<UpdateStockQrCodeToProductCommandResponse>
     {

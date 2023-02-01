@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace GOAL.Persistence
+namespace ETicaretAPI.Persistence
 {
     static class Configuration
     {

@@ -1,4 +1,4 @@
-﻿namespace GOAL.Application.Features.Commands.Product.UpdateStockQrCodeToProduct
+﻿namespace ETicaretAPI.Application.Features.Commands.Product.UpdateStockQrCodeToProduct
 {
     public class UpdateStockQrCodeToProductCommandResponse
     {

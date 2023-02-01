@@ -1,14 +1,14 @@
-﻿using GOAL.Application.Repositories;
-using GOAL.Persistence.Contexts;
+﻿using ETicaretAPI.Application.Repositories;
+using ETicaretAPI.Persistence.Contexts;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace GOAL.Persistence.Repositories
+namespace ETicaretAPI.Persistence.Repositories
 {
-    public class FileWriteRepository : WriteRepository<GOAL.Domain.Entities.File>, IFileWriteRepository
+    public class FileWriteRepository : WriteRepository<ETicaretAPI.Domain.Entities.File>, IFileWriteRepository
     {
         public FileWriteRepository(ETicaretAPIDbContext context) : base(context)
         {

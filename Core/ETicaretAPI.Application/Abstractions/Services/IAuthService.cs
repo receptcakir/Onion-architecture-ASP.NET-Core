@@ -1,11 +1,11 @@
-﻿using GOAL.Application.Abstractions.Services.Authentications;
+﻿using ETicaretAPI.Application.Abstractions.Services.Authentications;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace GOAL.Application.Abstractions.Services
+namespace ETicaretAPI.Application.Abstractions.Services
 {
     public interface IAuthService : IExternalAuthentication, IInternalAuthentication
     {

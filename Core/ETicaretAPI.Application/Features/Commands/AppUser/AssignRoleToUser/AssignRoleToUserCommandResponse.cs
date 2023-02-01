@@ -1,4 +1,4 @@
-﻿namespace GOAL.Application.Features.Commands.AppUser.AssignRoleToUser
+﻿namespace ETicaretAPI.Application.Features.Commands.AppUser.AssignRoleToUser
 {
     public class AssignRoleToUserCommandResponse
     {
