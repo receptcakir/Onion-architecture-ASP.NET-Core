@@ -1,5 +1,6 @@
 .NET 7
 Entity Framework Core – Code First
+PostgreSql
 Repository Pattern
 CQRS Pattern
 Mediatr
